@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.glavni-naslov {
+    background-color: #026a02;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 3rem;
+    min-width: 42rem;
+}
+
+.glavni-naslov__logoi {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.glavni-naslov__logo {
+    max-height: 2rem;
+    vertical-align: middle;
+}
+
+.glavni-naslov__logo img {
+    max-height: 2rem;
+    vertical-align: middle;
+    padding-left: 1rem;
+}
+
+.glavni-naslov .logo-natpis {
+    max-height: 2rem;
+}
+
+.glavni-nav {
+    min-width: 25rem;
+}
+
+.glavni-nav__linkovi {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style-type: none;
+    margin-right: 2rem;
+    padding: 0;
+}
+
+.glavni-nav__link a {
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    padding: 8px;
+}
+
+.glavni-nav__link a:hover,
+.glavni-nav__link a:active {
+    color: #ff8800;
+    background-color: white;
+    border-radius: 9px;
+}
