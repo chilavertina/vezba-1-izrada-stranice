@@ -52,6 +52,7 @@ body {
     color: white;
     margin: 3px;
     padding: 8px;
+    font-weight: 900;
 }
 
 .glavni-nav__link a:hover,
