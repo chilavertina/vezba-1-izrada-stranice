@@ -1,16 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 0;
 }
 
 .glavni-naslov {
     background-color: #026a02;
     width: 100%;
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-height: 3rem;
     min-width: 42rem;
+    border-bottom: 3px black solid;
 }
 
 .glavni-naslov__logoi {
@@ -60,4 +70,57 @@ body {
     color: #ff8800;
     background-color: white;
     border-radius: 9px;
+}
+
+.main-osnova {
+    background-color: #026a02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem 0;
+    height: 100%;
+}
+
+.main-osnova__tekst {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-osnova__tekst h2 {
+    color: white;
+    margin: 0;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.main-osnova__tekst p {
+    color: white;
+    max-height: 21rem;
+    max-width: 32rem;
+    margin: 0;
+    width: 21rem;
+    margin-bottom: 1rem;
+}
+
+.main-osnova__tekst button {
+    border-radius: 9px;
+    width: 7rem;
+    background-color: #ff8800;
+    color: white;
+    padding: 0.5rem;
+}
+
+.main-osnova__tekst button:hover,
+.main-osnova__tekst button:active {
+    color: #ff8800;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.main-osnova__fotografija img {
+    max-height: 21rem;
+    max-width: 32rem;
+    background-origin: border-box;
 }
