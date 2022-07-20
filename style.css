@@ -124,3 +124,98 @@ body {
     max-width: 32rem;
     background-origin: border-box;
 }
+
+/*.background {
+    background: url("images\maxresdefault.jpg") center/cover;
+    filter: grayscale(40%);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}*/
+
+.main-fotografija {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-fotografija__slike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20rem 2rem 20rem;
+}
+
+.slika {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+.slika img {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #6f6d6d;
+    padding: 0;
+}
+
+.opis {
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 1rem;
+}
+
+.main-citat {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.main-citat__tekst {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.main-citat__potpis {
+    align-self: flex-end;
+    margin-top: 0;
+    margin-right: 18rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+
+.levo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up button {
+    border-radius: 9px;
+    width: 7rem;
+    background-color: #ff8800;
+    color: white;
+    padding: 0.5rem;
+}
+
+.sign-up button:hover,
+.sign-up button:active {
+    color: #ff8800;
+    background-color: white;
+    border-radius: 9px;
+}
