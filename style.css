@@ -125,15 +125,6 @@ body {
     background-origin: border-box;
 }
 
-/*.background {
-    background: url("images\maxresdefault.jpg") center/cover;
-    filter: grayscale(40%);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-}*/
-
 .main-fotografija {
     display: flex;
     flex-direction: column;
@@ -145,7 +136,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20rem 2rem 20rem;
+    margin: 0 20rem 0 20rem;
 }
 
 .slika {
@@ -173,6 +164,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3rem 0;
+    width: 70%;
+    margin: auto;
 }
 
 .main-citat__tekst {
@@ -196,13 +189,29 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-
+    background-color: #026a02;
+    width: 75%;
+    margin: auto;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+    margin-bottom: 3rem;
 }
 
 .levo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+}
+
+.sign-up__poziv {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.sign-up__tekst {
+    color: white;
 }
 
 .sign-up button {
@@ -218,4 +227,17 @@ body {
     color: #ff8800;
     background-color: white;
     border-radius: 9px;
+}
+
+.glavni-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8800;
+    padding: 0 3rem;
+}
+
+.glavni-footer p {
+    color: white;
+    font-size: 1.2rem;
 }
